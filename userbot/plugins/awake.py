@@ -7,7 +7,7 @@ from userbot.utils import lightning_cmd
 import os
 ALIVE_PHOTTO = os.environ.get("ALIVE_PHOTTO", None)
 if ALIVE_PHOTTO is None:
-    ALIVE_ME = "https://telegra.ph/file/b01cd4ef19edc14195648.mp4"
+    ALIVE_ME = "https://telegra.ph/file/19f576e62ac0e8b5fcd90.mp4"
 else:
     ALIVE_ME = ALIVE_PHOTTO
 
