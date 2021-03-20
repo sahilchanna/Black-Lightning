@@ -16,20 +16,20 @@ from userbot.utils import lightning_cmd, edit_or_reply, sudo_cmd
 
 ALIVE_PIC = os.environ.get("ALIVE_PIC", None)
 if ALIVE_PIC is None:
-    PM_iMG = "https://telegra.ph/file/5db4087d9de9b738ad0fc.mp4"
+    PM_iMG = "https://telegra.ph/file/00f60d92a8e02db2a9877.mp4"
 else:
     PM_iMG = ALIVE_PIC
 
 
 HELL_PIC = os.environ.get("HELL_PIC", None)
 if HELL_PIC is None:
-    HELL_IMG = "https://telegra.ph/file/c828d5c695b4cf95c814e.mp4"
+    HELL_IMG = "https://telegra.ph/file/00f60d92a8e02db2a9877.mp4"
 else:
     HELL_IMG = HELL_PIC
 
 CAT_IMGE = os.environ.get("CAT_IMGE", None)
 if CAT_IMGE is None:
-    CAT_IMG = "https://telegra.ph/file/63abc60224dc567e3d441.jpg"
+    CAT_IMG = "https://telegra.ph/file/00f60d92a8e02db2a9877.mp4"
 else:
     CAT_IMG = CAT_IMGE
 
